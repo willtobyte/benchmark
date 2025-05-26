@@ -1,0 +1,21 @@
+{
+  "animations": {
+    "default": {
+      "frames": [
+        {
+          "duration": -1,
+          "offset": {
+            "x": 0,
+            "y": 0
+          },
+          "rectangle": {
+            "height": 16,
+            "width": 16,
+            "x": 0,
+            "y": 0
+          }
+        }
+      ]
+    }
+  }
+}
