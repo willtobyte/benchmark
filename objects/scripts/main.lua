@@ -6,15 +6,7 @@ _G.engine = EngineFactory.new()
   :with_fullscreen(true)
   :create()
 
-local objectmanager = engine:objectmanager()
-
 function setup()
-  if jit then
-    print("JIT is enabled: " .. jit.version)
-  else
-    print("JIT is not available")
-  end
-
   local random = math.random
 
   local source = objectmanager:create("square")
