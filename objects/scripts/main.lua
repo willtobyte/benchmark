@@ -17,8 +17,9 @@ function setup()
 
   local random = math.random
 
+  local source = objectmanager:create("square")
   for _ = 1, 60000 do
-    local object = objectmanager:create("square")
+    local object = objectmanager:clone(source)
     object.action = "default"
     object.placement = {
       x = random(0, 480),
