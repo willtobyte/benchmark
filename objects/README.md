@@ -1,6 +1,4 @@
-50000 objects at 60fps on MacBook Air M2
-
-60000 objects at 76fps on MacBook Pro M4
+4200 objects at ~70fps on MacBook Pro M4 with Box2D.
 
 ```shell
 NOVSYNC=true CARTRIDGE=. ../carimbo/build/carimbo
