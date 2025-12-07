@@ -1,0 +1,12 @@
+{
+  "type": "backdrop",
+  "width": 1920,
+  "height": 1080,
+  "objects": [
+    {
+      "action": "normal",
+      "kind": "square",
+      "name": "square"
+    }
+  ]
+}
